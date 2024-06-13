@@ -1,7 +1,11 @@
 {
-  "name": "Gire",
+  "name": "gire",
   "version": "1.0.0",
   "description": "Task manager for teams",
   "author": "artemmmz",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "api": "DEBUG=1 cd api && source .venv/bin/activate && ",
+    "frontend": "cd frontend && dev"
+  }
 }
